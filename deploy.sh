@@ -13,6 +13,6 @@ then
     pm2 kill
 fi
 
-echo "starting bot-omlu application with pm2"
+echo "starting bot-fractal application with pm2"
 
-pm2 start index.js --watch --ignore-watch="node_modules" --name="bot-omlu"
+pm2 start index.js --watch --ignore-watch="node_modules" --name="bot-fractal"
